@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/Icono.ico" type="Imagenes/icon">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="content" href="../Css/content.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <legend><h1>Contáctanos</h1></legend>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <address>
+                No dudes en dejarnos tu opinion
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TOP ANIMAL</p>
+    </footer>
+</body>
+</html>
